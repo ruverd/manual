@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > should match snapshot 1`] = `
+<div>
+  <button
+    class="inline-flex h-8 items-center justify-center whitespace-nowrap bg-primary px-[30px] py-[15px] text-[10px] font-bold uppercase tracking-[0.15em] text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-20 md:h-[45px] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 custom-class"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Button > should match snapshot when disabled 1`] = `
+<div>
+  <button
+    class="inline-flex h-8 items-center justify-center whitespace-nowrap bg-primary px-[30px] py-[15px] text-[10px] font-bold uppercase tracking-[0.15em] text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-20 md:h-[45px] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+    disabled=""
+  >
+    Disabled Button
+  </button>
+</div>
+`;
+
+exports[`Button > should match snapshot with asChild 1`] = `
+<div>
+  <a
+    class="inline-flex h-8 items-center justify-center whitespace-nowrap bg-primary px-[30px] py-[15px] text-[10px] font-bold uppercase tracking-[0.15em] text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-20 md:h-[45px] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+    href="/test"
+  >
+    Link Button
+  </a>
+</div>
+`;

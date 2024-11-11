@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hero > should match snapshots 1`] = `
+<div>
+  <div
+    class="relative"
+  >
+    <img
+      alt="Man smiling"
+      class="size-full object-cover"
+      data-testid="mock-image"
+    />
+    <img
+      alt="Manual Logo"
+      class="absolute left-6 top-4 size-6 sm:left-12 md:left-16 md:top-[30px] md:size-10 lg:left-[138px]"
+      data-testid="mock-image"
+    />
+    <div
+      class="absolute inset-0 mx-6 flex flex-col sm:mx-12 md:mx-16 lg:mx-[138px]"
+    >
+      <div
+        class="my-auto flex w-full max-w-52 flex-col gap-2 pt-4 sm:max-w-72 md:max-w-96 md:gap-5 md:pt-12"
+      >
+        <h1
+          class="text-4xl leading-none tracking-neg-3 text-brand md:text-5xl lg:text-[90px]"
+        >
+          <span
+            class="block whitespace-nowrap"
+          >
+            Be good
+          </span>
+          <span
+            class="block whitespace-nowrap"
+          >
+            to yourself
+          </span>
+        </h1>
+        <p
+          class="hidden text-balance text-sm leading-6 sm:block md:text-lg md:leading-[30px]"
+        >
+          We're working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out.
+        </p>
+        <a
+          aria-label="Take the Quiz"
+          class="inline-flex h-8 items-center justify-center whitespace-nowrap bg-primary px-[30px] py-[15px] text-[10px] font-bold uppercase tracking-[0.15em] text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-20 md:h-[45px] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 mt-4 w-fit"
+          href="/quiz"
+          tabindex="0"
+        >
+          Take the Quiz
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
